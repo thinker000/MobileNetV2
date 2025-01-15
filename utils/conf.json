@@ -1,0 +1,28 @@
+{
+	"gpu" : "0",   
+
+	"type" : "cifa10",
+	
+	"num_of_clients" : 9,
+	
+	"cfraction" : 1,
+	
+	"local_epoch" : 10,
+	
+	"batch_size" : 100,
+	
+	"model_name" : "MobileVitPlus",
+	
+	"learning_rate" : 0.001,    
+	
+	"val_freq" : 1,
+	
+	"save_freq" : 1000,
+	
+	"num_comm" : 50,
+	
+	"save_path" : "./checkpoints",
+	
+	"IID" : true
+
+}
